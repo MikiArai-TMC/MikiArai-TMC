@@ -10,6 +10,9 @@ function mySet(){
 
 
 
+
+
+
 function getSymbol(insertedDate) {  
     if (insertedDate === "月曜日") {
       return "トラ(東)"; 
