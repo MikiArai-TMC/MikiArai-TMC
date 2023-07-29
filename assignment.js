@@ -1,12 +1,13 @@
 
 
 
-function mySet(){
-    myWeekTbl = new Array( "日","月","火","水","木","金","土" );
-    myDate = new Date( document.myF.myY.value, document.myF.myM.value-1, document.myF.myD.value );//月は マイナス1 。月は 0月～ 11月
-    myWeek = myDate.getDay();
-    document.myF.myMes.value =  myWeekTbl[myWeek] + "曜日生まれ";
+function findMyDate(){
+  myWeekArray = new Array( "日","月","火","水","木","金","土" );
+  myDate = new Date( document.date.year.value, document.date.month.value-1, document.date.day.value );//月は マイナス1 。月は 0月～ 11月
+  myWeek = myDate.getDay();
+  document.date.myMes.value =  myWeekArray[myWeek] + "曜日生まれ";
 }
+
 
 
 
