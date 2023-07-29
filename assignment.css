@@ -1,0 +1,196 @@
+
+.h1frist
+{
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1
+}
+
+.h1second
+{
+    color:grey;
+    font-size: 25px;
+    text-align: center;
+    line-height: 2px
+}
+
+/* .photo1 {
+  text-align: center
+} */
+
+
+
+h2 
+{
+  font-size: 25px;  
+  margin: 10px 150px;  /*上下10、左右150  */
+}
+
+
+p 
+{
+    margin: 10px 200px; 
+    font-size: 20px;
+  }
+
+.appendix
+{
+  color: grey;
+}
+
+.appendix2
+{
+  color: grey;
+  margin: 10px 250px; 
+}
+
+
+  .hr1 {
+    border-top: 3px dotted rgb(117, 117, 117); /* 点線 */
+    width: 70%;
+  } 
+
+  #suggestion
+  {
+    text-align: center;
+    font-size: 20px; 
+}
+
+
+ul
+{
+    margin: 10px 200px;
+    font-size: 20px; 
+}
+
+.form1
+{
+    text-align: center;
+    font-size: 18px;
+    color:grey;
+}
+
+.form2
+{
+  text-align: center;
+  font-size: 18px;
+  color:grey;
+}
+
+
+
+
+.form3
+{
+  text-align: center;
+  font-size: 18px; 
+  color: grey;
+}
+
+.box1 {
+  margin       : auto;
+  width        : 700px;
+  background   : navy
+}
+
+#msg
+{
+  text-align: center;
+  font-size: 20px; 
+  color: white;
+}
+
+.comnfirmdate3
+{
+  width: 300px; 
+  border: solid 3px white;
+  font-size: 20px; 
+  text-align: center;
+  background-color: white;
+  font-weight : bold;
+  color: navy;
+}
+
+
+
+/* フッター */
+
+body{
+  padding-bottom : 32px;      
+}
+
+
+.footerStyle{
+  position    : fixed;
+  bottom      : 0;
+  left        : 0;
+  right       : 0;
+  height      : 32px;
+  background  : rgb(55, 140, 140);
+  z-index     : 10;
+  text-align  : right;
+}
+
+ 
+.footerword{
+  font-size   : 14px;
+  line-height : 30px;
+  color       : #fff;
+}
+
+
+/* 動画リンク */
+
+.linkbutton {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸 */
+  font-size     : 12pt;       
+  text-align    : center;    
+  cursor        : pointer;    
+  padding       : 8px 8px;   
+  background    : #000066;     
+  color         : #ffffff;     
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #000066;    /* 枠の指定 */
+}
+.linkbutton:hover {
+  color         : #000066;    
+  background    : #ffffff;    
+}
+
+
+
+/* 画像回り込み */
+figure.side_image {
+  display: inline-block;
+}
+ 
+p.side_text {
+  display: inline-block;
+  width: 300px;
+  margin: 10px 200px; 
+}
+
+p.side_text {
+  display: inline-block;
+  width: 600px;
+  margin-left: 20px;
+  vertical-align: top;
+  margin: 10px 200px; 
+
+}
+
+
+/* 旗挿入 */
+.h1frist::before {
+    content: url(flag2.png);
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.h1frist::after {
+    content: url(flag2.png);
+    vertical-align: middle;
+    padding-left: 10px;
+}
