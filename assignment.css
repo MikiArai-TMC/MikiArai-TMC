@@ -195,3 +195,18 @@ p.side_text {
     vertical-align: middle;
     padding-left: 10px;
 }
+
+#output
+{
+  text-align: center;
+  font-size: 20px; 
+  font-weight : bold;
+  color:navy
+}
+
+
+#pulldown
+{
+  text-align: center;
+  font-size: 23px; 
+}
