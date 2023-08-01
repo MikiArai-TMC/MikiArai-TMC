@@ -221,21 +221,33 @@
 
 
 
-         <!-- <form class="form2" id="nameText">
-           <select name="date" size="1">        
-             <option value="">曜日を選択</option>    
-             <option value="月曜日">月曜日</option>
-             <option value="火曜日">火曜日</option>
-             <option value="水曜日午前">水曜日午前</option>
-             <option value="水曜日午後">水曜日午後</option>
-             <option value="木曜日">木曜日</option>
-             <option value="金曜日">金曜日</option>
-             <option value="土曜日">土曜日</option>
-             <option value="日曜日">日曜日</option>       
-           </select>
-         </form> -->
+<div>
+            <form class = "form3" name="form5"><strong>生まれた曜日を（水曜日の場合は、午前か午後も区別）を記入</strong>
+         <br>
+         <br>
+
+         <!-- <form name="form5" action="" id = "pulldown"> -->
+            <select id="Select1" onchange="selectboxChange();">
+              <option value="">曜日を選択</option>    
+              <option value="月曜日">月曜日</option>
+              <option value="火曜日">火曜日</option>
+              <option value="水曜日午前">水曜日午前</option>
+              <option value="水曜日午後">水曜日午後</option>
+              <option value="木曜日">木曜日</option>
+              <option value="金曜日">金曜日</option>
+              <option value="土曜日">土曜日</option>
+              <option value="日曜日">日曜日</option>
+            </select>
+          </form>
+        
+          <br>
+        
+          <div id="output"></div>
          
-         <div>
+
+
+         
+<!--          <div>
             <form class = "form3"><strong>生まれた曜日を（水曜日の場合は、午前か午後も区別）を記入</strong>
                <br>(月曜日、火曜日、水曜日午前、水曜日午後、木曜日、金曜日、土曜日、日曜日)
          <br>
@@ -249,7 +261,7 @@
          <div class="box1" id="makeImg2">
          <p id="msg">
          </p>
-         </div>
+         </div> -->
          
          <br>
          <br>
