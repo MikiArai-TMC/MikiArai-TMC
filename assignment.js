@@ -70,6 +70,7 @@ function selectboxChange() {
 //   console.log(getSymbol("月曜日"));
   
 //   let insertedDate = document.getElementById('date');
+//   console.log(insertedDate.value)
 //   let msg = document.getElementById('msg');
 //   let checkButton = document.getElementById('checkButton');
   
