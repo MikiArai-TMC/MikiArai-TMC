@@ -25,7 +25,7 @@ function selectboxChange() {
       target.innerHTML = "牙のあるゾウ(南)<br/>";
       break;
     case 4:
-      target.innerHTML = "牙のない像(北西)<br/>";
+      target.innerHTML = "牙のないゾウ(北西)<br/>";
       break;
     case 5:
       target.innerHTML = "ねずみ(西)<br/>";
